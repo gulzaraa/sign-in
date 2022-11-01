@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+        <script src="https://cdn.tailwindcss.com"></script> 
+	    <title>sign in</title>
+		<script src="./app.js" defer> </script>
+	</head>
+	<body >
+		<main class="bg-[url('./img/dark.svg')] grid grid-cols-[5fr_4fr] h-screen justify-items-center">
+		<div class="flex flex-col justify-center items-center gap-y-[26px] text-white font-medium">
+			<div class="flex flex-col justify-center items-center gap-y-[20px] text-center">
+				<img src="./img/Frame 3.svg" alt="">
+				<h1 class="text-3xl font-bold">Sign in to your account</h1>
+				<p class="text-lg ">start</p>
+			
+		</div>
+		<div class="flex flex-col justify-center items-center gap-y-[14px] w-full">
+		<label for="" class="flex flex-col gap-y-[6px] w-full"> 
+			email
+			<input type="email" id="email" placeholder="your email"  class= "px-[14] py-[11px] rounded-lg text-black">
+		</label> <br>
+		<label for="" class="flex flex-col gap-y-[6px] w-full" >
+			password
+			<input type="password" id="password" placeholder="your password" class= "px-[14] py-[11px] rounded-lg text-black"> 
+		</label>
+		<button id="btn" class="w-full  bg-[#22C55E] text-white rounded-md py-[11px] mt-[10px]">sign in </button>
+		</div>
+	</div>
+		<img src="./img/Rectangle 18.jpg"  alt="" class="h-full w-full">
+	</main>
+	</body>
+</html>
